@@ -1,9 +1,11 @@
 # Change Log
 
-All notable changes to the "PineEditorThemes" extension will be documented in this file.
+#### **2.0.0**
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+*27.06.2023 **Update*** 
+- Reworked semantic token for themes `Pine Blue` and `Pine Blue Bold`
 
-## [Unreleased]
+---
 
-- Initial release
+#### **1.0.0**
+- Extension Release

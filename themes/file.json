@@ -1,3 +1,4 @@
+{
 "contrastBorder": null,
 "focusBorder": "#1E53E5",
 "foreground": "#d6deeb",
@@ -242,7 +243,7 @@
 "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
 "source.elm": "#1E53E5",
 "string.quoted.single.js": "#ffffff",
-"meta.objectliteral.js": "#82AAFF"
+"meta.objectliteral.js": "#82AAFF",
 
 
 
@@ -279,3 +280,4 @@
 "symbolIcon.typeParameterForeground" : "", 
 "symbolIcon.unitForeground" : "", 
 "symbolIcon.variableForeground" : ""
+}

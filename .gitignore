@@ -1,0 +1,6 @@
+node_modules/**
+dist/**
+.vscodeignore
+vsc-extension-quickstart.md
+*.vsix
+.vscode/settings.json

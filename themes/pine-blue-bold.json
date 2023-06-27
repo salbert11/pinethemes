@@ -400,22 +400,6 @@
         }
       },
       {
-        "name": "Keyword Operator Arithmetic",
-        "scope": "token.error-token.ps",
-        "settings": {
-          "fontStyle" : ["bold"],
-          "foreground": "#bf0231"
-        }
-      },
-      {
-        "name": "Keyword Operator Arithmetic",
-        "scope": "invalid.illegal.non-null-typehinted.php.ps",
-        "settings": {
-          "fontStyle" : ["bold"],
-          "foreground": "#bf0231"
-        }
-      },
-      {
         "name": "Support Constant Math",
         "scope": "support.constant.math",
         "settings": {
@@ -1941,6 +1925,191 @@
         ],
         "settings": {
           "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "string ps",
+        "scope": [
+          "punctuation.definition.string.begin.ps",
+          "punctuation.definition.string.end.ps",
+          "string.quoted.double.ps",
+          "string.quoted.single.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#469151"
+        }
+      },
+      {
+        "name": "keyword other ps",
+        "scope": [
+          "keyword.other.ps"
+        ],
+        "settings": {
+          "fontStyle" : "italic",
+          "foreground": "#bf0231"
+        }
+      },
+      {
+        "name": "import export ps",
+        "scope": [
+          "keyword.control.import.ps",
+          "keyword.control.export.ps",
+          "punctuation.separator.ps",
+          "keyword.control.as.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#C76EFF"
+        }
+      },
+      {
+        "name": "entity name function ps",
+        "scope": [
+          "entity.name.function.ps",
+          "storage.type.function.arrow.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#c5e478"
+        }
+      },
+      {
+        "name": "keyword operator new ps",
+        "scope": [
+          "keyword.operator.new.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#34C1D9"
+        }
+      },
+      {
+        "name": "variable other readwrite ps",
+        "scope": "variable.other.readwrite.ps",
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#B4BBC6"
+        }
+      },
+      {
+        "name": "support constant ps",
+        "scope": [
+          "support.constant.ps",
+          "support.constant.property.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#FF6363"
+        }
+      },
+      {
+        "name": "variable ojbect ps",
+        "scope": [
+          "variable.other.object.ps",
+          "variable.other.object.property.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#1c95ff"
+        }
+      },
+      {
+        "name": "constant numeric ps",
+        "scope": [
+          "constant.numeric.ps",
+          "constant.numeric.decimal.ps",
+          "constant.language.boolean.true.ps",
+          "constant.language.boolean.false.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#E4855C"
+        }
+      },
+      {
+        "name": "support class ps",
+        "scope": [
+          "storage.type.class.ps"
+        ],
+        "settings": {
+          "foreground": "#00FF0F",
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "support type ps",
+        "scope": [
+          "support.type.primitive.ps",
+          "storage.type.function.ps",
+          "storage.type.type.ps",
+          "keyword.operator.word.ps",
+          "keyword.control.conditional.ps",
+          "keyword.control.switch.ps",
+          "keyword.control.loop.ps",
+          "storage.type.ps",
+          "entity.name.type.class.ps",
+          "punctuation.section.embedded.other.ps"
+        ],
+        "settings": {
+          "foreground": "#34C1D9",
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "punctuation ps",
+        "scope": [
+          "punctuation.separator.comma.ps",
+          "punctuation.accessor.ps",
+          "meta.brace.round.ps",
+          "meta.brace.square.ps",
+          "constant.character.format.placeholder.other.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#E4855C"
+        }
+      },
+      {
+        "name": "keyword operator assignment ps",
+        "scope": "keyword.operator.assignment.ps",
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#34C1D9"
+        }
+      },
+      {
+        "name": "keyword operator symbol ps",
+        "scope": [
+          "keyword.operator.assignment.compound.ps",
+          "keyword.operator.arithmetic.ps",
+          "keyword.operator.relational.ps",
+          "keyword.operator.comparison.ps",
+          "punctuation.definition.typeparameters.begin.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#C76EFF"
+        }
+      },
+      {
+        "name": "variable parameter ps",
+        "scope": [
+          "variable.parameter.ps"
+        ],
+        "settings": {
+          "fontStyle" : "italic",
+          "foreground": "#D19A66"
+        }
+      },
+      {
+        "name": "entity name namespace ps",
+        "scope": [
+          "entity.name.namespace.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#FFCB8B"
         }
       }
     ]

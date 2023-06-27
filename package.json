@@ -3,7 +3,7 @@
 	"displayName": "Pine Editor Themes",
 	"description": "Themes for Pine Script V5 Syntax Highlighting & Snippets extension",
 	"icon": "images/pineicon.png",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"publisher": "JeylaniB",
 	"license": "MIT",
 	"engines": {
