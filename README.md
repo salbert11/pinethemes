@@ -1,6 +1,6 @@
 <p align="center"> <img src="https://github.com/jeyllani/pinethemes/blob/main/images/pineicon.png?raw=true"> </p>
-<h2  align="center"> Pine Themes </h2> 
- <h3 align="center"> Complement for ⭐ Pine Script V5 Syntax Highlighting & Snippets ⭐ extension </h3>
+<h2 align="center"> Pine Themes </h2> 
+<h3 align="center"> Complement for ⭐ Pine Script V5 Syntax Highlighting & Snippets ⭐ extension </h3>
 
 ---
 
@@ -26,10 +26,6 @@
 - If you want to report an error or want to suggest anything just send us an [e-mail](mailto:jeylanib@protonmail.com)
 
 ---
-### Support Us 
-- If you find this extension useful and want to support us [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PRW27XGLFKGZW)
-
----
 
 #### Version 
-- *2.0.0*
+- *2.0.1*

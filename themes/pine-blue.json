@@ -2045,12 +2045,21 @@
           "punctuation.separator.comma.ps",
           "punctuation.accessor.ps",
           "meta.brace.round.ps",
-          "meta.brace.square.ps",
-          "constant.character.format.placeholder.other.ps"
+          "meta.brace.square.ps"
         ],
         "settings": {
           "fontStyle" : "",
           "foreground": "#E4855C"
+        }
+      },
+      {
+        "name": "placeholder ps",
+        "scope": [
+          "constant.character.format.placeholder.other.ps"
+        ],
+        "settings": {
+          "fontStyle" : "",
+          "foreground": "#C122E9"
         }
       },
       {

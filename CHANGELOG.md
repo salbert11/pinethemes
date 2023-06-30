@@ -1,5 +1,12 @@
 # Change Log
 
+#### **2.0.1**
+
+*30.06.2023 **Update*** 
+- Updated color for Placeholder
+
+---
+
 #### **2.0.0**
 
 *27.06.2023 **Update*** 
