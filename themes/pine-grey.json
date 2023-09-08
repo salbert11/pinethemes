@@ -1,5 +1,5 @@
 {
-    "name": "Pine Grey",
+    "name": "Pine Theme Grey",
     "type": "dark",
     "semanticHighlighting": false,
     "semanticTokenColors": {
@@ -378,7 +378,7 @@
           "keyword.operator.expression.keyof"
         ],
         "settings": {
-          "foreground": "#c678dd"
+          "foreground": "#469151"
         }
       },
       {
@@ -1983,6 +1983,194 @@
         "settings": {
           "fontStyle": "italic"
         }
+      },
+      {
+        "name": "string ps",
+        "scope": [
+          "punctuation.definition.string.begin.ps",
+          "punctuation.definition.string.end.ps",
+          "string.quoted.double.ps",
+          "string.quoted.single.ps"
+        ],
+        "settings": {
+          "foreground": "#98C379"
+        }
+      },
+      {
+        "name": "keyword other ps",
+        "scope": [
+          "keyword.other.ps"
+        ],
+        "settings": {
+          "fontStyle" : "italic",
+          "foreground": "#F44747"
+        }
+      },
+      {
+        "name": "import export ps",
+        "scope": [
+          "keyword.control.import.ps",
+          "keyword.control.export.ps",
+          "punctuation.separator.ps",
+          "keyword.control.as.ps"
+        ],
+        "settings": {
+          "foreground": "#C678DD"
+        }
+      },
+      {
+        "name": "entity name function ps",
+        "scope": [
+          "entity.name.function.ps",
+          "storage.type.function.arrow.ps"
+        ],
+        "settings": {
+          "foreground": "#D8D278"
+        }
+      },
+      {
+        "name": "keyword operator new ps",
+        "scope": [
+          "keyword.operator.new.ps"
+        ],
+        "settings": {
+          "foreground": "#56B6C2"
+        }
+      },
+      {
+        "name": "variable other readwrite ps",
+        "scope": "variable.other.readwrite.ps",
+        "settings": {
+          "foreground": "#D6DEEB"
+        }
+      },
+      {
+        "name": "support constant ps",
+        "scope": [
+          "support.constant.ps",
+          "support.constant.property.ps"
+        ],
+        "settings": {
+          "foreground": "#D19A66"
+        }
+      },
+      {
+        "name": "variable ojbect ps",
+        "scope": [
+          "variable.other.object.ps",
+          "variable.other.object.property.ps"
+        ],
+        "settings": {
+          "foreground": "#61AFEF"
+        }
+      },
+      {
+        "name": "constant numeric ps",
+        "scope": [
+          "constant.numeric.ps",
+          "constant.numeric.decimal.ps",
+          "constant.language.boolean.true.ps",
+          "constant.language.boolean.false.ps"
+        ],
+        "settings": {
+          "foreground": "#D19A66"
+        }
+      },
+      {
+        "name": "support class ps",
+        "scope": [
+          "storage.type.class.ps"
+        ],
+        "settings": {
+          "foreground": "#E5C07B"
+        }
+      },
+      {
+        "name": "support type ps",
+        "scope": [
+          "support.type.primitive.ps",
+          "storage.type.function.ps",
+          "storage.type.type.ps",
+          "keyword.operator.word.ps",
+          "keyword.control.conditional.ps",
+          "keyword.control.switch.ps",
+          "keyword.control.loop.ps",
+          "storage.type.ps",
+          "entity.name.type.class.ps",
+          "punctuation.section.embedded.other.ps"
+        ],
+        "settings": {
+          "foreground": "#56B6C2"
+        }
+      },
+      {
+        "name": "punctuation ps",
+        "scope": [
+          "punctuation.separator.comma.ps",
+          "punctuation.accessor.ps"
+        ],
+        "settings": {
+          "foreground": "#FFFFFF"
+        }
+      },
+      {
+        "name": "brace ps",
+        "scope": [
+          "meta.brace.round.ps",
+          "meta.brace.square.ps"
+        ],
+        "settings": {
+          "foreground": "#BBBBBB"
+        }
+      },
+      {
+        "name": "placeholder ps",
+        "scope": [
+          "constant.character.format.placeholder.other.ps"
+        ],
+        "settings": {
+          "fontStyle" : "",
+          "foreground": "#C678DD"
+        }
+      },
+      {
+        "name": "keyword operator assignment ps",
+        "scope": "keyword.operator.assignment.ps",
+        "settings": {
+          "foreground": "#56B6C2"
+        }
+      },
+      {
+        "name": "keyword operator symbol ps",
+        "scope": [
+          "keyword.operator.assignment.compound.ps",
+          "keyword.operator.arithmetic.ps",
+          "keyword.operator.relational.ps",
+          "keyword.operator.comparison.ps",
+          "punctuation.definition.typeparameters.begin.ps"
+        ],
+        "settings": {
+          "foreground": "#C678DD"
+        }
+      },
+      {
+        "name": "variable parameter ps",
+        "scope": [
+          "variable.parameter.ps"
+        ],
+        "settings": {
+          "fontStyle" : "italic",
+          "foreground": "#D19A66"
+        }
+      },
+      {
+        "name": "entity name namespace ps",
+        "scope": [
+          "entity.name.namespace.ps"
+        ],
+        "settings": {
+          "foreground": "#E5C07B"
+        }
       }
     ],
     "colors": {
@@ -2082,15 +2270,16 @@
       "editorInlayHint.background": "#2c313c",
       "editorLineNumber.activeForeground": "#C5E4FD",
       "editorCursor.foreground": "#ff0000",
+      
       "editor.selectionBackground": "#67769660",
       "editor.selectionHighlightBackground": "#ffffff10",
-      "editor.selectionHighlightBorder": "#dddddd",
+      "editor.selectionHighlightBorder": "#7F848E96",
       "editor.inactiveSelectionBackground": "#222A2E",
 
       "editor.wordHighlightBackground": "#d2e0ff2f",
-      "editor.wordHighlightBorder": "#7f848e",
+      "editor.wordHighlightBorder": "#7F848EDC",
       "editor.wordHighlightStrongBackground": "#abb2bf26",
-      "editor.wordHighlightStrongBorder": "#7f848e",
+      "editor.wordHighlightStrongBorder": "#7F848EDC",
 
       "editor.findMatchBackground": "#535E7279",
       "editor.findMatchHighlightBackground": "#1085bb5d",

@@ -1,5 +1,12 @@
 # Change Log
 
+#### **2.1.0**
+
+*08.09.2023 **Update*** 
+- Reworked semantic token for all themes
+
+---
+
 #### **2.0.1**
 
 *30.06.2023 **Update*** 

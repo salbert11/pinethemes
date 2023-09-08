@@ -1,5 +1,5 @@
 {
-    "name": "Pine Editor Light Bold",
+    "name": "Pine Theme Light Bold",
     "type": "light",
     "semanticHighlighting": false,
     "colors": {
@@ -1925,6 +1925,201 @@
         ],
         "settings": {
           "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "string ps",
+        "scope": [
+          "punctuation.definition.string.begin.ps",
+          "punctuation.definition.string.end.ps",
+          "string.quoted.double.ps",
+          "string.quoted.single.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#798D31"
+        }
+      },
+      {
+        "name": "keyword other ps",
+        "scope": [
+          "keyword.other.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#F44747"
+        }
+      },
+      {
+        "name": "import export ps",
+        "scope": [
+          "keyword.control.import.ps",
+          "keyword.control.export.ps",
+          "punctuation.separator.ps",
+          "keyword.control.as.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#3A99A0"
+        }
+      },
+      {
+        "name": "entity name function ps",
+        "scope": [
+          "entity.name.function.ps",
+          "storage.type.function.arrow.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#3700FF"
+        }
+      },
+      {
+        "name": "keyword operator new ps",
+        "scope": [
+          "keyword.operator.new.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#3A99A0"
+        }
+      },
+      {
+        "name": "variable other readwrite ps",
+        "scope": "variable.other.readwrite.ps",
+        "settings": {
+          "fontStyle" : "",
+          "foreground": "#161A22"
+        }
+      },
+      {
+        "name": "support constant ps",
+        "scope": [
+          "support.constant.ps",
+          "support.constant.property.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#C53532"
+        }
+      },
+      {
+        "name": "variable ojbect ps",
+        "scope": [
+          "variable.other.object.ps",
+          "variable.other.object.property.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#0059FF"
+        }
+      },
+      {
+        "name": "constant numeric ps",
+        "scope": [
+          "constant.numeric.ps",
+          "constant.numeric.decimal.ps",
+          "constant.language.boolean.true.ps",
+          "constant.language.boolean.false.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#EB8A3C"
+        }
+      },
+      {
+        "name": "support class ps",
+        "scope": [
+          "storage.type.class.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#476FA5"
+          
+        }
+      },
+      {
+        "name": "support type ps",
+        "scope": [
+          "support.type.primitive.ps",
+          "storage.type.function.ps",
+          "storage.type.type.ps",
+          "keyword.operator.word.ps",
+          "keyword.control.conditional.ps",
+          "keyword.control.switch.ps",
+          "keyword.control.loop.ps",
+          "storage.type.ps",
+          "entity.name.type.class.ps",
+          "punctuation.section.embedded.other.ps"
+        ],
+        "settings": {
+          "foreground": "#3A99A0",
+          "fontStyle" : "bold"
+        }
+      },
+      {
+        "name": "punctuation ps",
+        "scope": [
+          "punctuation.separator.comma.ps",
+          "punctuation.accessor.ps",
+          "meta.brace.round.ps",
+          "meta.brace.square.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#161A22"
+        }
+      },
+      {
+        "name": "placeholder ps",
+        "scope": [
+          "constant.character.format.placeholder.other.ps"
+        ],
+        "settings": {
+          "fontStyle" : "",
+          "foreground": "#C678DD"
+        }
+      },
+      {
+        "name": "keyword operator assignment ps",
+        "scope": "keyword.operator.assignment.ps",
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#B193BA"
+        }
+      },
+      {
+        "name": "keyword operator symbol ps",
+        "scope": [
+          "keyword.operator.assignment.compound.ps",
+          "keyword.operator.arithmetic.ps",
+          "keyword.operator.relational.ps",
+          "keyword.operator.comparison.ps",
+          "punctuation.definition.typeparameters.begin.ps"
+        ],
+        "settings": {
+          "fontStyle" : "bold",
+          "foreground": "#3A99A0"
+        }
+      },
+      {
+        "name": "variable parameter ps",
+        "scope": [
+          "variable.parameter.ps"
+        ],
+        "settings": {
+          "fontStyle" : "italic",
+          "foreground": "#D19A66"
+        }
+      },
+      {
+        "name": "entity name namespace ps",
+        "scope": [
+          "entity.name.namespace.ps"
+        ],
+        "settings": {
+          "fontStyle" : "italic",
+          "foreground": "#161A22"
         }
       }
     ]

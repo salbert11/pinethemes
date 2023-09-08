@@ -1,16 +1,16 @@
 {
-	"name": "pine-editor-themes",
-	"displayName": "Pine Editor Themes",
-	"description": "Themes for Pine Script V5 Syntax Highlighting & Snippets extension",
+	"name": "pinescript-color-themes",
+	"displayName": "PineScript Color Themes",
+	"description": "Color Themes for PineScript Helper extension",
 	"icon": "images/pineicon.png",
-	"version": "2.0.1",
-	"publisher": "JeylaniB",
+	"version": "2.1.0",
+	"publisher": "salbert11",
 	"license": "MIT",
 	"engines": {
 		"vscode": "^1.62.0"
 	},
 	"author": {
-		"name": "Jeylani"
+		"name": "salbert11"
 	},
 	"categories": [
 		"Themes"
@@ -31,47 +31,47 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Pine Blue Bold",
+				"label": "Pine Theme Blue Bold",
 				"uiTheme": "vs-dark",
 				"path": "./themes/pine-blue-bold.json"
 			},
 			{
-				"label": "Pine Blue",
+				"label": "Pine Theme Blue",
 				"uiTheme": "vs-dark",
 				"path": "./themes/pine-blue.json"
 			},
 			{
-				"label": "Pine Editor Dark Bold",
+				"label": "Pine Theme Dark Bold Low Contrast",
 				"uiTheme": "vs-dark",
 				"path": "./themes/pine-editor-dark-bold.json"
 			},
 			{
-				"label": "Pine Editor Dark",
+				"label": "Pine Theme Dark Low Contrast",
 				"uiTheme": "vs-dark",
 				"path": "./themes/pine-editor-dark.json"
 			},
 			{
-				"label": "Pine Editor Light Bold",
-				"uiTheme": "vs-dark",
+				"label": "Pine Theme Light Bold",
+				"uiTheme": "vs",
 				"path": "./themes/pine-editor-light-bold.json"
 			},
 			{
-				"label": "Pine Editor Light",
-				"uiTheme": "vs-dark",
+				"label": "Pine Theme Light",
+				"uiTheme": "vs",
 				"path": "./themes/pine-editor-light.json"
 			},
 			{
-				"label": "Pine Grey Bold",
+				"label": "Pine Theme Grey Bold",
 				"uiTheme": "vs-dark",
 				"path": "./themes/pine-grey-bold.json"
 			},
 			{
-				"label": "Pine Grey !",
+				"label": "Pine Theme Grey Candy",
 				"uiTheme": "vs-dark",
 				"path": "./themes/pine-grey-fun.json"
 			},
 			{
-				"label": "Pine Grey",
+				"label": "Pine Theme Grey",
 				"uiTheme": "vs-dark",
 				"path": "./themes/pine-grey.json"
 			}
@@ -79,12 +79,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/jeyllani/pinethemes.git"
+		"url": "https://github.com/salbert11/pinethemes.git"
 	},
-	"homepage": "https://github.com/jeyllani/pinethemes/blob/190c973bc31e4e366a1dcc84938684dd13afc092/README.md",
-	"__metadata": {
-		"id": "a5cec9a9-bc96-4c41-926c-4cca207a4a4b",
-		"publisherDisplayName": "JeylaniB",
-		"publisherId": "d46746af-1cf4-4707-b9a0-e13a48924ebf"
-	}
+	"homepage": "https://github.com/salbert11/pinethemes/blob/main/README.md"
 }

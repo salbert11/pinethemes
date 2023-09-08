@@ -1,5 +1,5 @@
 {
-    "name": "Pine Blue",
+    "name": "Pine Theme Blue",
     "type": "dark",
     "semanticHighlighting": false,
     "colors": {
@@ -96,11 +96,17 @@
       "editorLineNumber.foreground": "#365269",
       "editorLineNumber.activeForeground": "#C5E4FD",
       "editorCursor.foreground": "#ff0000",
+
       "editor.selectionBackground": "#1d3b53",
       "editor.selectionHighlightBackground": "#5f7e9779",
+      "editor.selectionHighlightBorder": "#7F848E96",
       "editor.inactiveSelectionBackground": "#5777c25a",
+
       "editor.wordHighlightBackground": "#f6bbe533",
+      "editor.wordHighlightBorder": "#7F848EDC",
       "editor.wordHighlightStrongBackground": "#e2a2f433",
+      "editor.wordHighlightStrongBorder": "#7F848EDC",
+      
       "editor.findMatchBackground": "#5f7e9779",
       "editor.findMatchHighlightBackground": "#1085bb5d",
       "editor.findRangeHighlightBackground": null,
@@ -2043,13 +2049,22 @@
         "name": "punctuation ps",
         "scope": [
           "punctuation.separator.comma.ps",
-          "punctuation.accessor.ps",
+          "punctuation.accessor.ps"
+        ],
+        "settings": {
+          "fontStyle" : "",
+          "foreground": "#E4855C"
+        }
+      },
+      {
+        "name": "brace ps",
+        "scope": [
           "meta.brace.round.ps",
           "meta.brace.square.ps"
         ],
         "settings": {
           "fontStyle" : "",
-          "foreground": "#E4855C"
+          "foreground": "#BBBBBB"
         }
       },
       {
