@@ -1885,7 +1885,7 @@
           "string.quoted.single.ps"
         ],
         "settings": {
-          "foreground": "#798D31"
+          "foreground": "#3E9242"
         }
       },
       {
@@ -1947,10 +1947,10 @@
         }
       },
       {
-        "name": "variable ojbect ps",
+        "name": "support function ps",
         "scope": [
-          "variable.other.object.ps",
-          "variable.other.object.property.ps"
+          "support.function.ps",
+          "support.function.property.ps"
         ],
         "settings": {
           "foreground": "#0059FF"
@@ -1969,7 +1969,7 @@
         }
       },
       {
-        "name": "support class ps",
+        "name": "storage class ps",
         "scope": [
           "storage.type.class.ps"
         ],
@@ -1984,23 +1984,41 @@
           "support.type.primitive.ps",
           "storage.type.function.ps",
           "storage.type.type.ps",
+          "storage.type.ps",
+          "entity.name.type.class.ps"
+        ],
+        "settings": {
+          "foreground": "#3A99A0",
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "keyword control operator ps",
+        "scope": [
           "keyword.operator.word.ps",
           "keyword.control.conditional.ps",
           "keyword.control.switch.ps",
           "keyword.control.loop.ps",
-          "storage.type.ps",
-          "entity.name.type.class.ps",
           "punctuation.section.embedded.other.ps"
         ],
         "settings": {
-          "foreground": "#3A99A0"
+          "foreground": "#3A99A0",
+          "fontStyle": "italic"
         }
       },
       {
         "name": "punctuation ps",
         "scope": [
           "punctuation.separator.comma.ps",
-          "punctuation.accessor.ps",
+          "punctuation.accessor.ps"
+        ],
+        "settings": {
+          "foreground": "#161A22"
+        }
+      },
+      {
+        "name": "brace ps",
+        "scope": [
           "meta.brace.round.ps",
           "meta.brace.square.ps"
         ],
@@ -2009,7 +2027,7 @@
         }
       },
       {
-        "name": "placeholder ps",
+        "name": "constant placeholder ps",
         "scope": [
           "constant.character.format.placeholder.other.ps"
         ],
@@ -2055,7 +2073,28 @@
         ],
         "settings": {
           "fontStyle" : "italic",
-          "foreground": "#161A22"
+          "foreground": "#8E24AA"
+        }
+      },
+      {
+        "name": "comment meta annotation ps",
+        "scope": [
+          "comment.line.double-slash.ps",
+          "meta.annotation.ps"
+        ],
+        "settings": {
+          "foreground": "#8C908C",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "meta annotation identifier ps",
+        "scope": [
+          "meta.annotation.identifier.ps"
+        ],
+        "settings": {
+          "foreground": "#161A22",
+          "fontStyle": ""
         }
       }
     ]

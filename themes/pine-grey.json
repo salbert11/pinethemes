@@ -2055,10 +2055,10 @@
         }
       },
       {
-        "name": "variable ojbect ps",
+        "name": "support function ps",
         "scope": [
-          "variable.other.object.ps",
-          "variable.other.object.property.ps"
+          "support.function.ps",
+          "support.function.property.ps"
         ],
         "settings": {
           "foreground": "#61AFEF"
@@ -2077,11 +2077,12 @@
         }
       },
       {
-        "name": "support class ps",
+        "name": "storage class ps",
         "scope": [
           "storage.type.class.ps"
         ],
         "settings": {
+          "fontStyle" : "",
           "foreground": "#E5C07B"
         }
       },
@@ -2091,16 +2092,26 @@
           "support.type.primitive.ps",
           "storage.type.function.ps",
           "storage.type.type.ps",
+          "storage.type.ps",
+          "entity.name.type.class.ps"
+        ],
+        "settings": {
+          "foreground": "#56B6C2",
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "keyword control operator ps",
+        "scope": [
           "keyword.operator.word.ps",
           "keyword.control.conditional.ps",
           "keyword.control.switch.ps",
           "keyword.control.loop.ps",
-          "storage.type.ps",
-          "entity.name.type.class.ps",
           "punctuation.section.embedded.other.ps"
         ],
         "settings": {
-          "foreground": "#56B6C2"
+          "foreground": "#56B6C2",
+          "fontStyle": "italic"
         }
       },
       {
@@ -2124,7 +2135,7 @@
         }
       },
       {
-        "name": "placeholder ps",
+        "name": "constant placeholder ps",
         "scope": [
           "constant.character.format.placeholder.other.ps"
         ],
@@ -2147,7 +2158,9 @@
           "keyword.operator.arithmetic.ps",
           "keyword.operator.relational.ps",
           "keyword.operator.comparison.ps",
-          "punctuation.definition.typeparameters.begin.ps"
+          "punctuation.definition.generic.begin.ps",
+          "punctuation.definition.generic.end.ps",
+          "punctuation.definition.annotation.ps"
         ],
         "settings": {
           "foreground": "#C678DD"
@@ -2170,6 +2183,27 @@
         ],
         "settings": {
           "foreground": "#E5C07B"
+        }
+      },
+      {
+        "name": "comment meta annotation ps",
+        "scope": [
+          "comment.line.double-slash.ps",
+          "meta.annotation.ps"
+        ],
+        "settings": {
+          "foreground": "#7F848E",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "meta annotation identifier ps",
+        "scope": [
+          "meta.annotation.identifier.ps"
+        ],
+        "settings": {
+          "foreground": "#ABB2BF",
+          "fontStyle": ""
         }
       }
     ],

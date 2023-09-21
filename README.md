@@ -5,7 +5,7 @@
 ## Overview
 **Note: This is a forked project from JeylaniB's [Pine Editor Themes](https://marketplace.visualstudio.com/items?itemName=JeylaniB.pine-editor-themes) extension.**
 
-**PineScript Color Themes** is a theme pack designed to enhance your experience with the [**PineScript Helper**](https://github.com/salbert11/pinescript) extension.
+**PineScript Color Themes** is a theme pack designed to enhance your experience with the [**PineScript Helper**](https://marketplace.visualstudio.com/items?itemName=salbert11.pinescript-helper) extension.
 
 ### Features
 
@@ -87,6 +87,14 @@
 
 ---
 
+## Release Notes
+#### **2.1.1**
+
+*21.09.2023 **Update*** 
+- Update semantic token for matching scope naming general practices
+
+---
+
 ## Feedback and Issues
 
 If you encounter any issues or have suggestions for improvement, please report them on [GitHub](https://github.com/salbert11/pinethemes/issues). 
@@ -98,4 +106,4 @@ If you encounter any issues or have suggestions for improvement, please report t
 This extension is licensed under the [MIT License](./LICENSE.md).
 
 #### Version 
-- *2.1.0*
+- *2.1.1*

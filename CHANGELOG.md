@@ -1,5 +1,12 @@
 # Change Log
 
+#### **2.1.1**
+
+*21.09.2023 **Update*** 
+- Update semantic token for matching scope naming general practices
+
+---
+
 #### **2.1.0**
 
 *08.09.2023 **Update*** 
