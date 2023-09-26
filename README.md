@@ -49,9 +49,18 @@
 ---
 
 ## Installation
-### Method 1: Download from GitHub Release
+### Method 1: Install from VS Code Command Palette
 
-1. Visit the [PineScript Color Themes GitHub Releases page](https://github.com/salbert11/pinethemes/releases).
+Launch VS Code Command Palette (Ctrl+P), paste the following command, and press enter.
+```
+ext install salbert11.pinescript-color-themes
+```
+
+---
+
+### Method 2: Download from GitHub Release
+
+1. Visit the PineScript Color Themes [GitHub Releases page](https://github.com/salbert11/pinethemes/releases).
 2. Download the latest `.vsix` package corresponding to the version you desire.
 3. Open Visual Studio Code.
 4. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
@@ -61,7 +70,7 @@
 
 ---
 
-### Method 2: Clone and Compile in Visual Studio Code 
+### Method 3: Clone and Compile in Visual Studio Code 
 
 1. Clone the **PineScript Color Themes** repository to your local machine using the following command:
 
@@ -88,10 +97,10 @@
 ---
 
 ## Release Notes
-#### **2.1.1**
+#### **2.1.2**
 
-*21.09.2023 **Update*** 
-- Update semantic token for matching scope naming general practices
+*26.09.2023 **Update*** 
+- Minor fix
 
 ---
 
@@ -106,4 +115,4 @@ If you encounter any issues or have suggestions for improvement, please report t
 This extension is licensed under the [MIT License](./LICENSE.md).
 
 #### Version 
-- *2.1.1*
+- *2.1.2*
