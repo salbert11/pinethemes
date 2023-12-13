@@ -35,9 +35,9 @@
       "inputValidation.warningBorder": "#FFCA28",
   
       "scrollbar.shadow": "#010b14",
-      "scrollbarSlider.activeBackground": "#011D33",
-      "scrollbarSlider.background": "#011D33",
-      "scrollbarSlider.hoverBackground": "#011D33",
+      "scrollbarSlider.activeBackground": "#1A5582AC",
+      "scrollbarSlider.background": "#042E4EAC",
+      "scrollbarSlider.hoverBackground": "#114064AC",
   
       "badge.background": "#5f7e97",
       "badge.foreground": "#ffffff",
@@ -1948,7 +1948,7 @@
           "keyword.control.as.ps"
         ],
         "settings": {
-          "fontStyle" : "",
+          "fontStyle" : "italic",
           "foreground": "#C76EFF"
         }
       },
