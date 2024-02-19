@@ -10,41 +10,21 @@
 ### Features
 
 - A collection of color themes:
+![](https://github.com/salbert11/pinethemes/blob/pinescript-color-themes/images/pine-themes.gif?raw=true)
+  - **Pine Theme Original Dark**
+  - **Pine Theme Dark Pro**
+  - **Pine Theme Dark Pro Bold**
+  - **Pine Theme Monokai Dark**
+  - **Pine Theme Monokai Dark Bold**
   - **Pine Theme Blue**
-
-  ![](https://github.com/salbert11/pinethemes/blob/pinescript-color-themes/images/pine-theme-blue.png?raw=true)
-  ---
   - **Pine Theme Blue Bold**
-
-  ![](https://github.com/salbert11/pinethemes/blob/pinescript-color-themes/images/pine-theme-blue-bold.png?raw=true)
-  ---
   - **Pine Theme Dark Low Contrast**
-
-  ![](https://github.com/salbert11/pinethemes/blob/pinescript-color-themes/images/pine-theme-dark-low-contrast.png?raw=true)
-  ---
-  - **Pine Theme Dark Bold Low Contrast**
-  
-  ![](https://github.com/salbert11/pinethemes/blob/pinescript-color-themes/images/pine-theme-dark-bold-low-contrast.png?raw=true)
-  ---
+  - **Pine Theme Dark Low Contrast Bold**
   - **Pine Theme Grey**
-  
-  ![](https://github.com/salbert11/pinethemes/blob/pinescript-color-themes/images/pine-theme-grey.png?raw=true)
-  ---
   - **Pine Theme Grey Bold**
-  
-  ![](https://github.com/salbert11/pinethemes/blob/pinescript-color-themes/images/pine-theme-grey-bold.png?raw=true)
-  ---
   - **Pine Theme Grey Candy**
-  
-  ![](https://github.com/salbert11/pinethemes/blob/pinescript-color-themes/images/pine-theme-grey-candy.png?raw=true)
-  ---
   - **Pine Theme Light**
-  
-  ![](https://github.com/salbert11/pinethemes/blob/pinescript-color-themes/images/pine-theme-light.png?raw=true)
-  ---
   - **Pine Theme Light Bold**
-  
-  ![](https://github.com/salbert11/pinethemes/blob/pinescript-color-themes/images/pine-theme-light-bold.png?raw=true)
 
 ---
 
@@ -97,10 +77,16 @@ ext install salbert11.pinescript-color-themes
 ---
 
 ## Release Notes
-#### **2.1.3**
+#### **2.2.0**
 
-*13.12.2023 **Update*** 
-- Minor fix
+*17.02.2024 **Update*** 
+- 5 new themes added
+  - Pine Theme Original Dark
+  - Pine Theme Dark Pro
+  - Pine Theme Dark Pro Bold
+  - Pine Theme Monokai Dark
+  - Pine Theme Monokai Dark Bold
+- Minor fix for updated semantic token
 
 ---
 

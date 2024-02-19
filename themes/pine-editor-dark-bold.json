@@ -1,5 +1,5 @@
 {
-    "name": "Pine Theme Dark Bold Low Contrast",
+    "name": "Pine Theme Dark Low Contrast Bold",
     "type": "dark",
     "semanticHighlighting": false,
     "colors": {
@@ -148,16 +148,16 @@
       "editorSuggestWidget.background": "#24272B",
       "symbolIcon.snippetForeground": "#24272B",
       "editorSuggestWidget.border": "#161615d8",
-      "editorSuggestWidget.foreground": "#C2C2C2",
-      "editorSuggestWidget.highlightForeground": "#92C910",
-      "editorSuggestWidget.selectedBackground": "#39664E",
+      "editorSuggestWidget.foreground": "#80A1BD",
+      "editorSuggestWidget.highlightForeground": "#ffffffcc",
+      "editorSuggestWidget.selectedBackground": "#505662",
       "editorHoverWidget.background": "#01101CE7",
       "editorHoverWidget.border": "#5f7e97",
       "keybindingLabel.background": "#525459",
       "keybindingLabel.foreground" : "#ffffff",
       "keybindingLabel.bottomBorder" :"#525459",
       "keybindingLabel.border" :"#525459",
-      "editorSuggestWidget.selectedIconForeground" : "#FFCA28",
+      "editorSuggestWidget.selectedIconForeground" : "#80A1BD",
   
       "debugExceptionWidget.background": "#131621",
       "debugExceptionWidget.border": "#1E53E5",
@@ -1984,9 +1984,9 @@
         }
       },
       {
-        "name": "keyword other ps",
+        "name": "meta other ps",
         "scope": [
-          "keyword.other.ps"
+          "meta.other.ps"
         ],
         "settings": {
           "fontStyle" : "italic",
@@ -2063,7 +2063,8 @@
           "constant.numeric.ps",
           "constant.numeric.decimal.ps",
           "constant.language.boolean.true.ps",
-          "constant.language.boolean.false.ps"
+          "constant.language.boolean.false.ps",
+          "meta.numeric.ps"
         ],
         "settings": {
           "fontStyle" : "bold",
@@ -2101,11 +2102,11 @@
           "keyword.control.conditional.ps",
           "keyword.control.switch.ps",
           "keyword.control.loop.ps",
-          "punctuation.section.embedded.other.ps"
+          "meta.section.embedded.other.ps"
         ],
         "settings": {
           "foreground": "#8ABDB7",
-          "fontStyle": ""
+          "fontStyle": "italic"
         }
       },
       {
@@ -2142,7 +2143,10 @@
       },
       {
         "name": "keyword operator assignment ps",
-        "scope": "keyword.operator.assignment.ps",
+        "scope": [
+          "keyword.operator.assignment.ps",
+          "meta.assignment.ps"
+        ],
         "settings": {
           "fontStyle" : "bold",
           "foreground": "#7C5E99"

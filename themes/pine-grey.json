@@ -1997,9 +1997,9 @@
         }
       },
       {
-        "name": "keyword other ps",
+        "name": "meta other ps",
         "scope": [
-          "keyword.other.ps"
+          "meta.other.ps"
         ],
         "settings": {
           "fontStyle" : "italic",
@@ -2070,7 +2070,8 @@
           "constant.numeric.ps",
           "constant.numeric.decimal.ps",
           "constant.language.boolean.true.ps",
-          "constant.language.boolean.false.ps"
+          "constant.language.boolean.false.ps",
+          "meta.numeric.ps"
         ],
         "settings": {
           "foreground": "#D19A66"
@@ -2107,7 +2108,7 @@
           "keyword.control.conditional.ps",
           "keyword.control.switch.ps",
           "keyword.control.loop.ps",
-          "punctuation.section.embedded.other.ps"
+          "meta.section.embedded.other.ps"
         ],
         "settings": {
           "foreground": "#56B6C2",
@@ -2146,7 +2147,10 @@
       },
       {
         "name": "keyword operator assignment ps",
-        "scope": "keyword.operator.assignment.ps",
+        "scope": [
+          "keyword.operator.assignment.ps",
+          "meta.assignment.ps"
+        ],
         "settings": {
           "foreground": "#56B6C2"
         }
@@ -2357,7 +2361,7 @@
       "editorSuggestWidget.selectedBackground": "#2c313a",
 
 
-      "editorSuggestWidget.foreground": "#ffa0a0",
+      "editorSuggestWidget.foreground": "#89a4bb",
       "editorSuggestWidget.highlightForeground": "#ffffffcc",
 
       "editorHoverWidget.background": "#22262EE7",

@@ -1,4 +1,16 @@
 # Change Log
+#### **2.2.0**
+
+*17.02.2024 **Update*** 
+- 5 new themes added
+  - Pine Theme Original Dark
+  - Pine Theme Dark Pro
+  - Pine Theme Dark Pro Bold
+  - Pine Theme Monokai Dark
+  - Pine Theme Monokai Dark Bold
+- Minor fix for updated semantic token
+
+---
 
 #### **2.1.3**
 
@@ -6,6 +18,7 @@
 - Minor fix
 
 ---
+
 #### **2.1.2**
 
 *26.09.2023 **Update*** 
