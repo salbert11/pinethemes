@@ -2415,12 +2415,6 @@
       "titleBar.inactiveBackground": "#22262E",
       "titleBar.inactiveForeground": null,
   
-      "notifications.background": "#01111d",
-      "notifications.border": "#262a39",
-      "notificationCenter.border": "#262a39",
-      "notificationToast.border": "#262a39",
-      "notifications.foreground": "#ffffffcc",
-      "notificationLink.foreground": "#80CBC4",
   
       "extensionButton.prominentForeground": "#ffffffcc",
       "extensionButton.prominentBackground": "#00574D",
