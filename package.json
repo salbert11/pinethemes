@@ -3,7 +3,7 @@
 	"displayName": "PineScript Color Themes",
 	"description": "Color Themes for PineScript Helper extension",
 	"icon": "images/pineicon.png",
-	"version": "2.2.0",
+	"version": "2.2.1",
 	"publisher": "salbert11",
 	"license": "MIT",
 	"engines": {

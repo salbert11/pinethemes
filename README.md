@@ -77,16 +77,10 @@ ext install salbert11.pinescript-color-themes
 ---
 
 ## Release Notes
-#### **2.2.0**
+#### **2.2.1**
 
-*17.02.2024 **Update*** 
-- 5 new themes added
-  - Pine Theme Original Dark
-  - Pine Theme Dark Pro
-  - Pine Theme Dark Pro Bold
-  - Pine Theme Monokai Dark
-  - Pine Theme Monokai Dark Bold
-- Minor fix for updated semantic token
+*21.02.2024 **Update*** 
+- Minor fix
 
 ---
 
@@ -101,4 +95,4 @@ If you encounter any issues or have suggestions for improvement, please report t
 This extension is licensed under the [MIT License](./LICENSE.md).
 
 #### Version 
-- *2.2.0*
+- *2.2.1*
