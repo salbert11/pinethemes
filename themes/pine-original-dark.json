@@ -280,10 +280,10 @@
 		"terminal.ansiRed": "#ef5350",
 		"terminal.ansiWhite": "#e17518",
 		"terminal.ansiYellow": "#c5e478",
-		"terminal.foreground": "#79b5e0",
+		"terminal.foreground": "#d1d4d2",
 		"terminal.selectionBackground": "#1b90dd4d",
 		"terminalCursor.background": "#234d70",
-		"terminalCursor.foreground": "#1e53e5",
+		"terminalCursor.foreground": "#d1d4d2",
 		
 		"textCodeBlock.background": "#6e6e6e",
 		"menu.background": "#1e222d",

@@ -77,10 +77,10 @@ ext install salbert11.pinescript-color-themes
 ---
 
 ## Release Notes
-#### **2.2.1**
+#### **2.2.2**
 
-*21.02.2024 **Update*** 
-- Minor fix
+*22.02.2024 **Update*** 
+- Minor color fix
 
 ---
 
@@ -95,4 +95,4 @@ If you encounter any issues or have suggestions for improvement, please report t
 This extension is licensed under the [MIT License](./LICENSE.md).
 
 #### Version 
-- *2.2.1*
+- *2.2.2*
